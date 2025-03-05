@@ -75,4 +75,6 @@ def domov():
                          avtor=izbran_citat["avtor"])
 
 if __name__ == "__main__":
-    aplikacija.run(debug=True, host='0.0.0.0', port=5000)
+    import os
+    port = int(os.environ.get("PORT", 5000))
+    aplikacija.run(debug=False, host='0.0.0.0', port=port)
