@@ -1,6 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: lightblue;
+    background-image: url('../images/ozadje-citati.jpg'); /* Zamenjaj z potjo do tvoje slike */
+    background-size: cover; /* Ali 'auto' če želiš originalno velikost */
+    background-repeat: no-repeat; /* Spremeni v 'repeat', če želiš ponavljanje */
+    background-position: center;
     margin-left: 50px;
     margin-right: 50px;
     padding: 0;
@@ -8,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .quote-container {
